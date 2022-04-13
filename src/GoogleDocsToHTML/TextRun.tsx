@@ -1,6 +1,6 @@
 
 import { docs_v1 } from "googleapis";
-import React from "react";
+import React, { CSSProperties } from "react";
 
 
 export interface TextRunProps {
@@ -20,9 +20,29 @@ export const TextRun: React.FC<TextRunProps> = ({
     content.forEach(function (value) {
         contentReturn += value;
     })
+
+    var textStyle = element?.textRun?.textStyle;
+    var styleInline: CSSProperties;
+    styleInline = {};
+    if (textStyle?.bold) {
+        styleInline.fontWeight = "bold";
+    }
+    if (textStyle?.italic) {
+        styleInline.fontStyle = "italic";
+    }
+    if (textStyle?.underline) {
+        styleInline.textDecoration = "underline";
+    }
+    var red: number | undefined, green: number | undefined, blue: number | undefined;
+    if (textStyle?.foregroundColor?.color != undefined) {
+        red = (textStyle.foregroundColor.color.rgbColor?.red || 0) * 255;
+        blue = (textStyle.foregroundColor.color.rgbColor?.blue || 0) * 255;
+        green = (textStyle.foregroundColor.color.rgbColor?.green || 0) * 255;
+        console.log(styleInline.color = "rgb(" + red + "," + green + "," + blue + ")");
+    }
     return (
-        <>
+        <span style={styleInline}>
             {contentReturn}
-        </>
+        </span>
     );
 }

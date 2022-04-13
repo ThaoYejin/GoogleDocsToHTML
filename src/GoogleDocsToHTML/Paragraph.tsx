@@ -23,15 +23,13 @@ export const Paragraph: React.FC<PTagProps> = ({
             )
         } else if (element.inlineObjectElement == undefined) {
             content?.push(
-                <p key={index}>
-                    <TextRun element={element}></TextRun>
-                </p>
+                    <TextRun key={index} element={element}></TextRun>
             )
         }
     })
     return (
-        <>
+        <p>
             {content}
-        </>
+        </p>
     );
 }

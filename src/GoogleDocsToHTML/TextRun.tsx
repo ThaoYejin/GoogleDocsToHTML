@@ -4,18 +4,18 @@ import React from "react";
 
 
 export interface TextRunProps {
-    paragraph?: docs_v1.Schema$Paragraph;
+    element: docs_v1.Schema$ParagraphElement | undefined;
 }
 
 export const TextRun: React.FC<TextRunProps> = ({
-    paragraph
+    element
 }) => {
-    var elements = paragraph?.elements;
     var content: (string | undefined)[];
     content = [];
-    elements?.forEach(function (value) {
-        content.push(value?.textRun?.content);
-    })
+    if (element?.textRun?.content != undefined) {
+        content.push(element?.textRun?.content);
+    }
+
     var contentReturn = "";
     content.forEach(function (value) {
         contentReturn += value;

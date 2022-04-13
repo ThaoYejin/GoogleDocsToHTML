@@ -8,11 +8,15 @@ export interface HTagProps {
     paraObj?: docs_v1.Schema$Paragraph;
 }
 
-export const HTag: React.FC<HTagProps> = ({
+export const Heading: React.FC<HTagProps> = ({
     paraObj
 }) => {
     var hType = paraObj?.paragraphStyle?.namedStyleType;
-    var content = <TextRun paragraph={paraObj}></TextRun>;
+    var content;
+    paraObj?.elements?.forEach(function(element, index){
+       content = <TextRun key={index} element={element}></TextRun>;
+    })
+     
 
     if (hType == "HEADING_1") {
         return (

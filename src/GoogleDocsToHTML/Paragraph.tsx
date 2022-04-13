@@ -2,6 +2,7 @@ import React from "react";
 import { docs_v1 } from "googleapis";
 import { TextRun } from "./TextRun";
 import { Image } from "./Image";
+import { Link } from "./Link";
 
 
 export interface PTagProps {
@@ -21,9 +22,13 @@ export const Paragraph: React.FC<PTagProps> = ({
             content?.push(
                 <Image key={index} doc={doc} element={element} ></Image>
             )
-        } else if (element.inlineObjectElement == undefined) {
+        } else if (element.textRun?.textStyle?.link != undefined) {
+            content.push(
+                <Link paragraphElement={element}></Link>
+            )
+        } else if (element.inlineObjectElement == undefined && element.textRun?.textStyle?.link == undefined) {
             content?.push(
-                    <TextRun key={index} element={element}></TextRun>
+                <TextRun key={index} element={element}></TextRun>
             )
         }
     })

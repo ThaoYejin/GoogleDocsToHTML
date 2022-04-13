@@ -12,9 +12,9 @@ export const Heading: React.FC<HTagProps> = ({
     paraObj
 }) => {
     var hType = paraObj?.paragraphStyle?.namedStyleType;
-    var content;
+    var content:React.ReactNode[] = [];
     paraObj?.elements?.forEach(function(element, index){
-       content = <TextRun key={index} element={element}></TextRun>;
+       content.push( <TextRun key={index} element={element}></TextRun>);
     })
      
 

@@ -12,12 +12,14 @@ export const Heading: React.FC<HTagProps> = ({
     paraObj
 }) => {
     var hType = paraObj?.paragraphStyle?.namedStyleType;
-    var content:React.ReactNode[] = [];
-    paraObj?.elements?.forEach(function(element, index){
-       content.push( <TextRun key={index} element={element}></TextRun>);
-    })
-     
+    var content: React.ReactNode[] = [];
 
+    //Get the content of the heading tag
+    paraObj?.elements?.forEach(function (element, index) {
+        content.push(<TextRun key={index} element={element}></TextRun>);
+    })
+
+    //Check the type of the heading and return the tag type accordingly
     if (hType == "HEADING_1") {
         return (
             <h1>

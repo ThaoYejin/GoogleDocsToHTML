@@ -1,6 +1,7 @@
 
 import { docs_v1 } from "googleapis";
 import React, { CSSProperties } from "react";
+import { getColor } from "../Helper/getColor";
 import { Link } from "./Link";
 
 
@@ -41,39 +42,31 @@ export const TextRun: React.FC<TextRunProps> = ({
         styleInline.textDecoration = "underline";
     }
     //Color
-    var red: number | undefined, green: number | undefined, blue: number | undefined;
     if (textStyle?.foregroundColor?.color != undefined) {
-        red = (textStyle.foregroundColor.color.rgbColor?.red || 0) * 255;
-        blue = (textStyle.foregroundColor.color.rgbColor?.blue || 0) * 255;
-        green = (textStyle.foregroundColor.color.rgbColor?.green || 0) * 255;
-        styleInline.color = "rgb(" + red + "," + green + "," + blue + ")";
+        styleInline.color = getColor(textStyle?.foregroundColor?.color.rgbColor);
     }
     //Font family
-    var font : string | undefined;
-    var fontWeight : number | undefined; 
-    if (textStyle?.weightedFontFamily?.fontFamily != undefined){
+    var font: string | undefined;
+    var fontWeight: number | undefined;
+    if (textStyle?.weightedFontFamily?.fontFamily != undefined) {
         font = textStyle?.weightedFontFamily?.fontFamily;
         fontWeight = textStyle?.weightedFontFamily?.weight;
         styleInline.fontFamily = font;
         styleInline.fontWeight = fontWeight;
     }
     //Background color
-    var redBC: number | undefined, greenBC: number | undefined, blueBC: number | undefined;
-    if(textStyle?.backgroundColor?.color != undefined){
-        redBC = (textStyle.backgroundColor.color.rgbColor?.red || 0)*255;
-        blueBC = (textStyle.backgroundColor.color.rgbColor?.blue || 0)*255;
-        greenBC = (textStyle.backgroundColor.color.rgbColor?.green || 0)*255;
-        styleInline.backgroundColor = "rgb(" + redBC + "," + greenBC + "," + blueBC + ")";
+    if (textStyle?.backgroundColor?.color != undefined) {
+        styleInline.backgroundColor = getColor(textStyle?.backgroundColor?.color.rgbColor);
     }
     //Font size
     var magnitude: number | undefined;
     var unit: string | undefined;
-    if(textStyle?.fontSize != undefined){
+    if (textStyle?.fontSize != undefined) {
         magnitude = textStyle.fontSize.magnitude;
         unit = textStyle.fontSize.unit;
-        if(magnitude != undefined){
+        if (magnitude != undefined) {
             styleInline.fontSize = magnitude;
-        } else{
+        } else {
             styleInline.fontSize = unit;
         }
     }

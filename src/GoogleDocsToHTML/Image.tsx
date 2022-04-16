@@ -11,10 +11,14 @@ export const Image: React.FC<ImageProps> = ({
     doc
 }) => {
     var inlineObjID: (string | undefined);
+
+    //Get the ID of the image
     inlineObjID = element?.inlineObjectElement?.inlineObjectId;
+
     var inlineObj = doc?.inlineObjects;
     var source: (string | undefined);
 
+    //Get the URL of the image
     if (inlineObjID != undefined && inlineObj != undefined) {
         source = inlineObj[inlineObjID].inlineObjectProperties?.embeddedObject?.imageProperties?.contentUri;
         return (

@@ -11,6 +11,8 @@ export const Link: React.FC<LinkProps> = ({
     paragraphElement
 }) => {
     var url: string | undefined;
+
+    //Get the URL of the link
     if (paragraphElement?.textRun?.textStyle?.link != undefined) {
         url = paragraphElement?.textRun?.textStyle?.link.url;
     }

@@ -1,11 +1,12 @@
 import { docs_v1 } from "googleapis";
 import React from "react";
 import { Heading } from "./Heading";
+import { List } from "./List";
 import { Paragraph } from "./Paragraph";
 import { Table } from "./Table";
 export interface ContentProps {
     doc: docs_v1.Schema$Document;
-    body? : docs_v1.Schema$StructuralElement[];
+    body?: docs_v1.Schema$StructuralElement[];
 }
 
 export const Content: React.FC<ContentProps> = ({
@@ -30,8 +31,13 @@ export const Content: React.FC<ContentProps> = ({
         }
 
         //Display table
-        if(value.table != undefined){
+        if (value.table != undefined) {
             content.push(<Table doc={doc} table={value.table}></Table>)
+        }
+
+        //Display list
+        if (value.paragraph?.bullet != undefined) {
+            content.push(<List paraObj={value.paragraph} doc={doc}></List>)
         }
     })
     return (

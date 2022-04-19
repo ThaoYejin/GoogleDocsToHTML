@@ -1,7 +1,6 @@
 import { docs_v1 } from "googleapis";
 import React, { CSSProperties } from "react";
 import { Content } from "./Content";
-import { getColor } from "../Helper/getColor";
 import { setBorder } from "../Helper/setBorder";
 
 

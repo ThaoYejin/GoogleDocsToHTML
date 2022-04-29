@@ -1,5 +1,5 @@
 {
-  "name": "GoogleDocsToHTML",
+  "name": "googledocs-to-html",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -12,17 +12,22 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.17.5",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-typescript": "^7.16.7",
     "@rollup/plugin-commonjs": "^21.0.2",
     "@rollup/plugin-node-resolve": "^13.1.3",
-    "@storybook/addon-actions": "^6.4.19",
-    "@storybook/addon-essentials": "^6.4.19",
-    "@storybook/addon-interactions": "^6.4.19",
-    "@storybook/addon-links": "^6.4.19",
-    "@storybook/react": "^6.4.19",
+    "@storybook/addon-actions": "^6.4.22",
+    "@storybook/addon-essentials": "^6.4.22",
+    "@storybook/addon-interactions": "^6.4.22",
+    "@storybook/addon-links": "^6.4.22",
+    "@storybook/react": "^6.4.22",
     "@storybook/testing-library": "^0.0.9",
     "@types/react": "^17.0.39",
+    "babel-jest": "^27.5.1",
     "babel-loader": "^8.2.3",
+    "jest": "^27.5.1",
+    "googleapis": "^100.0.0",
     "node-sass": "^7.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -30,6 +35,7 @@
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-typescript2": "^0.31.2",
+    "ts-jest": "^27.1.4",
     "typescript": "^4.6.2"
   },
   "main": "build/index.js",
@@ -38,6 +44,5 @@
     "build"
   ],
   "dependencies": {
-    "googleapis": "^39.2.0"
   }
 }

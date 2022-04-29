@@ -1,11 +1,12 @@
 import { docs_v1 } from "googleapis";
 import React from "react";
 import { Heading } from "./Heading";
+import { List } from "./List";
 import { Paragraph } from "./Paragraph";
 import { Table } from "./Table";
 export interface ContentProps {
     doc: docs_v1.Schema$Document;
-    body? : docs_v1.Schema$StructuralElement[];
+    body?: docs_v1.Schema$StructuralElement[];
 }
 
 export const Content: React.FC<ContentProps> = ({
@@ -14,26 +15,36 @@ export const Content: React.FC<ContentProps> = ({
 }) => {
     var content: React.ReactNode[];
     content = [];
-    body?.forEach(function (value, index) {
-        var pObj = value.paragraph;
+    for (var i = 0; i < body?.length!; i++) {
+        var pObj = body![i].paragraph;
 
         //Display Heading
         if (pObj?.paragraphStyle?.namedStyleType?.indexOf("HEADING") != -1) {
             content?.push(
-                <Heading key={index} paraObj={pObj}></Heading>
+                <Heading paraObj={pObj}></Heading>
             )
         }
 
         //Display paragraph
-        if (pObj?.paragraphStyle?.namedStyleType?.indexOf("HEADING") == -1 && value.table == undefined && pObj.bullet == undefined) {
-            content?.push(<Paragraph key={index} paraObj={pObj} doc={doc}></Paragraph>)
+        if (pObj?.paragraphStyle?.namedStyleType?.indexOf("HEADING") == -1 && body![i].table == undefined && pObj.bullet == undefined) {
+            content?.push(<Paragraph paraObj={pObj} doc={doc}></Paragraph>)
         }
 
         //Display table
-        if(value.table != undefined){
-            content.push(<Table doc={doc} table={value.table}></Table>)
+        if (body![i].table != undefined) {
+            content.push(<Table doc={doc} table={body![i].table}></Table>)
         }
-    })
+
+        //Display list
+        if (body![i].paragraph?.bullet != undefined) {
+           
+            var list = List(doc, i);
+            content.push(list[0]);
+            i = i + list[1] - 1;
+        }
+        
+    }
+
     return (
         <>
             {content}

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <h6 />,
+  <h2>
+    <span
+      style={Object {}}
+    >
+      Heading 2
+    </span>
+    <span
+      style={
+        Object {
+          "color": "rgb(64.000002,64.000002,64.000002)",
+          "fontSize": 12,
+        }
+      }
+    >
+      
+
+    </span>
+  </h2>,
+]
+`;

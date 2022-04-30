@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<img
+  src="https://lh5.googleusercontent.com/dTGo1JBnJJXetdTHf5rxWkOgzhedEp1BwmQ8Ct7K73RjsauhFvVfPQgQ6k6drlGs5waTyr6_bkyz2QPhDQ4o02QhgZNPt7ZaRo3AGIR_vWfdp2RK5KLWtkUYG-GhJ7UeK0Oyc_unGCE1wB7f3g"
+/>
+`;

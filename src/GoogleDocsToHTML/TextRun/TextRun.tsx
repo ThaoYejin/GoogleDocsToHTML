@@ -1,8 +1,7 @@
 
 import { docs_v1 } from "googleapis";
 import React, { CSSProperties } from "react";
-import { getColor } from "../Helper/getColor";
-import { Link } from "./Link";
+import { getColor } from "../../Helper/getColor";
 
 
 export interface TextRunProps {
@@ -50,7 +49,7 @@ export const TextRun: React.FC<TextRunProps> = ({
     var fontWeight: number | undefined;
     if (textStyle?.weightedFontFamily?.fontFamily != undefined) {
         font = textStyle?.weightedFontFamily?.fontFamily;
-        fontWeight = textStyle?.weightedFontFamily?.weight;
+        fontWeight = textStyle?.weightedFontFamily?.weight!;
         styleInline.fontFamily = font;
         styleInline.fontWeight = fontWeight;
     }
@@ -62,8 +61,8 @@ export const TextRun: React.FC<TextRunProps> = ({
     var magnitude: number | undefined;
     var unit: string | undefined;
     if (textStyle?.fontSize != undefined) {
-        magnitude = textStyle.fontSize.magnitude;
-        unit = textStyle.fontSize.unit;
+        magnitude = textStyle.fontSize.magnitude!;
+        unit = textStyle.fontSize.unit!;
         if (magnitude != undefined) {
             styleInline.fontSize = magnitude;
         } else {

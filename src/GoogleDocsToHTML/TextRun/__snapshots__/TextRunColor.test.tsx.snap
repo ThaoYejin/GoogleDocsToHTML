@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<span
+  style={
+    Object {
+      "color": "rgb(153,0,255)",
+    }
+  }
+>
+  Text 
+</span>
+`;

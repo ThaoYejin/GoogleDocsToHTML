@@ -1,6 +1,6 @@
 import { docs_v1 } from "googleapis";
 import React from "react";
-import { TextRun } from "../GoogleDocsToHTML/TextRun";
+import { TextRun } from "../GoogleDocsToHTML/TextRun/TextRun";
 
 export function renderList(listObjArr: docs_v1.Schema$Paragraph[], level: number, startIndex: number, listType:string, listStyle:string[][]): [React.ReactNode, number] {
  

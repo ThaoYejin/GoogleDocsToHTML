@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<h6>
+  <span
+    style={Object {}}
+  >
+    Heading 6
+
+  </span>
+</h6>
+`;

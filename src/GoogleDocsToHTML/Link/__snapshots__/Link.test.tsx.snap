@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<a
+  href="https://www.google.com/"
+>
+  <span
+    style={
+      Object {
+        "color": "rgb(17.00000085,85.0000017,204)",
+        "textDecoration": "underline",
+      }
+    }
+  >
+    Google
+  </span>
+</a>
+`;

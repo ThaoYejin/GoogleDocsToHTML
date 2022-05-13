@@ -1,7 +1,7 @@
 import { docs_v1 } from "googleapis";
 import React from "react";
-import { getListType } from "../../Helper/getListType";
-import { renderList } from "../../Helper/renderList";
+import { getListType } from "../../Helper/getListType/getListType";
+import { renderList } from "../../Helper/renderList/renderList";
 
 export function List(doc: docs_v1.Schema$Document, startIndex: number): [React.ReactNode, number] {
     var listObjArr: docs_v1.Schema$Paragraph[] = [];

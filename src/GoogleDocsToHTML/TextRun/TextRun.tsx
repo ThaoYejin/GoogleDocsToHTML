@@ -1,7 +1,7 @@
 
 import { docs_v1 } from "googleapis";
 import React, { CSSProperties } from "react";
-import { getColor } from "../../Helper/getColor";
+import { getColor } from "../../Helper/getColor/getColor";
 
 
 export interface TextRunProps {

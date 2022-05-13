@@ -1,7 +1,7 @@
 import { docs_v1 } from "googleapis";
 import React, { CSSProperties } from "react";
 import { Content } from "../Content/Content";
-import { setBorder } from "../../Helper/setBorder";
+import { setBorder } from "../../Helper/setBorder/setBorder";
 
 
 export interface TableProps {

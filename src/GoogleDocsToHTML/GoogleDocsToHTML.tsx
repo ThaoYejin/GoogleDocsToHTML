@@ -1,9 +1,9 @@
 import { docs_v1 } from "googleapis";
 import React from "react";
-import { Content } from "./Content";
-import { Heading } from "./Heading";
-import { Paragraph } from "./Paragraph";
-import { Table } from "./Table";
+import { Content } from "./Content/Content";
+import { Heading } from "./Heading/Heading";
+import { Paragraph } from "./Paragraph/Paragraph";
+import { Table } from "./Table/Table";
 export interface GoogleDocsToHTMLProps {
     doc: docs_v1.Schema$Document;
 }

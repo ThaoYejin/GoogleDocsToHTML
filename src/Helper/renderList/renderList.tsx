@@ -7,8 +7,6 @@ export function renderList(listObjArr: docs_v1.Schema$Paragraph[], level: number
     //Initialize content array
     var content: React.ReactNode[] = [];
 
-    
-
     //Loop through listArray from startIndex
     var liContent;
     var i: number;

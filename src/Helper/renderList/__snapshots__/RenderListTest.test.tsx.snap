@@ -1,0 +1,234 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ol run correctly 1`] = `
+Array [
+  "1",
+  <ol>
+    <li>
+      <span
+        style={
+          Object {
+            "fontSize": 12,
+          }
+        }
+      >
+        Item 1
+
+      </span>
+    </li>
+    <li>
+      <span
+        style={
+          Object {
+            "fontSize": 12,
+          }
+        }
+      >
+        Item 2
+      </span>
+    </li>
+  </ol>,
+]
+`;
+
+exports[`renderList nesting level 0 run correctly 1`] = `
+Array [
+  "1",
+  <ol>
+    <li>
+      <span
+        style={
+          Object {
+            "fontSize": 12,
+          }
+        }
+      >
+        Item 1
+
+      </span>
+    </li>
+    <li>
+      <span
+        style={
+          Object {
+            "fontSize": 12,
+          }
+        }
+      >
+        Item 2
+      </span>
+    </li>
+  </ol>,
+]
+`;
+
+exports[`renderList nesting level 1 run correctly 1`] = `
+Array [
+  "3",
+  <ul>
+    <li>
+      <span
+        style={
+          Object {
+            "fontSize": 12,
+          }
+        }
+      >
+        Item 1
+
+      </span>
+    </li>
+    <ul>
+      <li>
+        <span
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Nested item 1
+
+        </span>
+      </li>
+      <li>
+        <span
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Nested item 2
+
+        </span>
+      </li>
+    </ul>
+    <li>
+      <span
+        style={
+          Object {
+            "fontSize": 12,
+          }
+        }
+      >
+        Item 2
+      </span>
+    </li>
+  </ul>,
+]
+`;
+
+exports[`renderList nesting level 2 run correctly 1`] = `
+Array [
+  "5",
+  <ul>
+    <li>
+      <span
+        style={
+          Object {
+            "fontSize": 12,
+          }
+        }
+      >
+        Item 1
+
+      </span>
+    </li>
+    <ul>
+      <li>
+        <span
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Nested item 1
+
+        </span>
+      </li>
+      <ul>
+        <li>
+          <span
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Nested nested item 1
+
+          </span>
+        </li>
+        <li>
+          <span
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Nested nested item 2
+
+          </span>
+        </li>
+      </ul>
+      <li>
+        <span
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Nested item 2
+
+        </span>
+      </li>
+    </ul>
+    <li>
+      <span
+        style={
+          Object {
+            "fontSize": 12,
+          }
+        }
+      >
+        Item 2
+      </span>
+    </li>
+  </ul>,
+]
+`;
+
+exports[`ul run correctly 1`] = `
+Array [
+  "1",
+  <ul>
+    <li>
+      <span
+        style={
+          Object {
+            "fontSize": 12,
+          }
+        }
+      >
+        Item 1
+
+      </span>
+    </li>
+    <li>
+      <span
+        style={
+          Object {
+            "fontSize": 12,
+          }
+        }
+      >
+        Item 2
+      </span>
+    </li>
+  </ul>,
+]
+`;

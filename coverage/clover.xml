@@ -1,6 +1,311 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1652405106701" clover="3.2.0">
-  <project timestamp="1652405106701" name="All files">
-    <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="0" coveredelements="0" complexity="0" loc="0" ncloc="0" packages="0" files="0" classes="0"/>
+<coverage generated="1652751288846" clover="3.2.0">
+  <project timestamp="1652751288846" name="All files">
+    <metrics statements="230" coveredstatements="137" conditionals="490" coveredconditionals="203" methods="23" coveredmethods="12" elements="743" coveredelements="352" complexity="0" loc="230" ncloc="230" packages="12" files="13" classes="13"/>
+    <package name="GoogleDocsToHTML.Content">
+      <metrics statements="20" coveredstatements="19" conditionals="47" coveredconditionals="43" methods="1" coveredmethods="1"/>
+      <file name="Content.tsx" path="E:\ws\ThaoXinhDep\GoogleDocsToHTML\src\GoogleDocsToHTML\Content\Content.tsx">
+        <metrics statements="20" coveredstatements="19" conditionals="47" coveredconditionals="43" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="23" count="4" type="cond" truecount="13" falsecount="0"/>
+        <line num="24" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="30" count="4" type="cond" truecount="16" falsecount="0"/>
+        <line num="31" count="2" type="cond" truecount="3" falsecount="1"/>
+        <line num="35" count="4" type="cond" truecount="0" falsecount="1"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="40" count="4" type="cond" truecount="5" falsecount="0"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="GoogleDocsToHTML.Heading">
+      <metrics statements="18" coveredstatements="12" conditionals="26" coveredconditionals="17" methods="2" coveredmethods="1"/>
+      <file name="Heading.tsx" path="E:\ws\ThaoXinhDep\GoogleDocsToHTML\src\GoogleDocsToHTML\Heading\Heading.tsx">
+        <metrics statements="18" coveredstatements="12" conditionals="26" coveredconditionals="17" methods="2" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="1" type="cond" truecount="6" falsecount="2"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="1" type="cond" truecount="6" falsecount="2"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="23" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="29" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="35" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="41" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="47" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="GoogleDocsToHTML.Image">
+      <metrics statements="8" coveredstatements="2" conditionals="27" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="Image.tsx" path="E:\ws\ThaoXinhDep\GoogleDocsToHTML\src\GoogleDocsToHTML\Image\Image.tsx">
+        <metrics statements="8" coveredstatements="2" conditionals="27" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="16" count="0" type="cond" truecount="0" falsecount="8"/>
+        <line num="18" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="22" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="23" count="0" type="cond" truecount="0" falsecount="12"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="GoogleDocsToHTML.Link">
+      <metrics statements="6" coveredstatements="3" conditionals="25" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="Link.tsx" path="E:\ws\ThaoXinhDep\GoogleDocsToHTML\src\GoogleDocsToHTML\Link\Link.tsx">
+        <metrics statements="6" coveredstatements="3" conditionals="25" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="16" count="0" type="cond" truecount="0" falsecount="13"/>
+        <line num="17" count="0" type="cond" truecount="0" falsecount="12"/>
+        <line num="20" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="GoogleDocsToHTML.List">
+      <metrics statements="28" coveredstatements="28" conditionals="34" coveredconditionals="28" methods="2" coveredmethods="2"/>
+      <file name="List.tsx" path="E:\ws\ThaoXinhDep\GoogleDocsToHTML\src\GoogleDocsToHTML\List\List.tsx">
+        <metrics statements="22" coveredstatements="22" conditionals="34" coveredconditionals="28" methods="1" coveredmethods="1"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="10" count="3" type="cond" truecount="3" falsecount="1"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="3" type="cond" truecount="3" falsecount="1"/>
+        <line num="17" count="3" type="cond" truecount="3" falsecount="1"/>
+        <line num="18" count="9" type="stmt"/>
+        <line num="20" count="9" type="cond" truecount="8" falsecount="1"/>
+        <line num="21" count="8" type="stmt"/>
+        <line num="26" count="3" type="cond" truecount="3" falsecount="1"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+        <line num="29" count="3" type="cond" truecount="3" falsecount="0"/>
+        <line num="30" count="3" type="cond" truecount="3" falsecount="1"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="36" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="42" count="3" type="stmt"/>
+        <line num="44" count="3" type="stmt"/>
+      </file>
+      <file name="ListTestComponent.tsx" path="E:\ws\ThaoXinhDep\GoogleDocsToHTML\src\GoogleDocsToHTML\List\ListTestComponent.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="GoogleDocsToHTML.Paragraph">
+      <metrics statements="15" coveredstatements="13" conditionals="37" coveredconditionals="24" methods="2" coveredmethods="2"/>
+      <file name="Paragraph.tsx" path="E:\ws\ThaoXinhDep\GoogleDocsToHTML\src\GoogleDocsToHTML\Paragraph\Paragraph.tsx">
+        <metrics statements="15" coveredstatements="13" conditionals="37" coveredconditionals="24" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="2" type="cond" truecount="3" falsecount="1"/>
+        <line num="20" count="2" type="cond" truecount="3" falsecount="1"/>
+        <line num="21" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="22" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="26" count="2" type="cond" truecount="6" falsecount="3"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="31" count="2" type="cond" truecount="9" falsecount="2"/>
+        <line num="32" count="2" type="cond" truecount="3" falsecount="1"/>
+        <line num="37" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="GoogleDocsToHTML.Table">
+      <metrics statements="49" coveredstatements="4" conditionals="105" coveredconditionals="0" methods="7" coveredmethods="0"/>
+      <file name="Table.tsx" path="E:\ws\ThaoXinhDep\GoogleDocsToHTML\src\GoogleDocsToHTML\Table\Table.tsx">
+        <metrics statements="49" coveredstatements="4" conditionals="105" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="16" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="17" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="40" count="0" type="cond" truecount="0" falsecount="8"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="43" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="44" count="0" type="cond" truecount="0" falsecount="8"/>
+        <line num="45" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="50" count="0" type="cond" truecount="0" falsecount="7"/>
+        <line num="51" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="59" count="0" type="cond" truecount="0" falsecount="9"/>
+        <line num="60" count="0" type="cond" truecount="0" falsecount="12"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="69" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="70" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="74" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="75" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="79" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="80" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="84" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="85" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="95" count="0" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="103" count="0" type="stmt"/>
+        <line num="108" count="0" type="stmt"/>
+        <line num="109" count="0" type="stmt"/>
+        <line num="114" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="GoogleDocsToHTML.TextRun">
+      <metrics statements="33" coveredstatements="24" conditionals="106" coveredconditionals="59" methods="2" coveredmethods="2"/>
+      <file name="TextRun.tsx" path="E:\ws\ThaoXinhDep\GoogleDocsToHTML\src\GoogleDocsToHTML\TextRun\TextRun.tsx">
+        <metrics statements="33" coveredstatements="24" conditionals="106" coveredconditionals="59" methods="2" coveredmethods="2"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="15" count="10" type="stmt"/>
+        <line num="17" count="10" type="cond" truecount="7" falsecount="2"/>
+        <line num="18" count="10" type="cond" truecount="6" falsecount="2"/>
+        <line num="22" count="10" type="stmt"/>
+        <line num="23" count="10" type="stmt"/>
+        <line num="24" count="10" type="stmt"/>
+        <line num="28" count="10" type="cond" truecount="6" falsecount="2"/>
+        <line num="30" count="10" type="stmt"/>
+        <line num="32" count="10" type="cond" truecount="3" falsecount="2"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="36" count="10" type="cond" truecount="3" falsecount="2"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="40" count="10" type="cond" truecount="3" falsecount="2"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="44" count="10" type="cond" truecount="8" falsecount="1"/>
+        <line num="45" count="4" type="cond" truecount="6" falsecount="2"/>
+        <line num="50" count="10" type="cond" truecount="6" falsecount="3"/>
+        <line num="51" count="0" type="cond" truecount="0" falsecount="8"/>
+        <line num="52" count="0" type="cond" truecount="0" falsecount="8"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="57" count="10" type="cond" truecount="6" falsecount="3"/>
+        <line num="58" count="0" type="cond" truecount="0" falsecount="8"/>
+        <line num="63" count="10" type="cond" truecount="4" falsecount="1"/>
+        <line num="64" count="10" type="stmt"/>
+        <line num="65" count="10" type="stmt"/>
+        <line num="66" count="10" type="cond" truecount="1" falsecount="1"/>
+        <line num="67" count="10" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="73" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="Helper.getColor">
+      <metrics statements="5" coveredstatements="5" conditionals="18" coveredconditionals="12" methods="1" coveredmethods="1"/>
+      <file name="getColor.tsx" path="E:\ws\ThaoXinhDep\GoogleDocsToHTML\src\Helper\getColor\getColor.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="18" coveredconditionals="12" methods="1" coveredmethods="1"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="4" type="cond" truecount="4" falsecount="2"/>
+        <line num="7" count="4" type="cond" truecount="4" falsecount="2"/>
+        <line num="8" count="4" type="cond" truecount="4" falsecount="2"/>
+        <line num="9" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="Helper.getListType">
+      <metrics statements="9" coveredstatements="9" conditionals="15" coveredconditionals="12" methods="2" coveredmethods="2"/>
+      <file name="getListType.tsx" path="E:\ws\ThaoXinhDep\GoogleDocsToHTML\src\Helper\getListType\getListType.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="15" coveredconditionals="12" methods="2" coveredmethods="2"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="9" count="3" type="cond" truecount="3" falsecount="0"/>
+        <line num="11" count="3" type="cond" truecount="3" falsecount="1"/>
+        <line num="12" count="27" type="cond" truecount="3" falsecount="1"/>
+        <line num="13" count="27" type="cond" truecount="3" falsecount="1"/>
+        <line num="17" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="Helper.renderList">
+      <metrics statements="28" coveredstatements="16" conditionals="21" coveredconditionals="8" methods="1" coveredmethods="1"/>
+      <file name="renderList.tsx" path="E:\ws\ThaoXinhDep\GoogleDocsToHTML\src\Helper\renderList\renderList.tsx">
+        <metrics statements="28" coveredstatements="16" conditionals="21" coveredconditionals="8" methods="1" coveredmethods="1"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="16" count="8" type="cond" truecount="4" falsecount="2"/>
+        <line num="17" count="8" type="stmt"/>
+        <line num="19" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="24" count="8" type="cond" truecount="1" falsecount="0"/>
+        <line num="25" count="8" type="stmt"/>
+        <line num="26" count="8" type="stmt"/>
+        <line num="34" count="8" type="cond" truecount="1" falsecount="1"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="52" count="8" type="cond" truecount="0" falsecount="1"/>
+        <line num="53" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="55" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="64" count="3" type="stmt"/>
+        <line num="65" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="72" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="Helper.setBorder">
+      <metrics statements="11" coveredstatements="2" conditionals="29" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="setBorder.tsx" path="E:\ws\ThaoXinhDep\GoogleDocsToHTML\src\Helper\setBorder\setBorder.tsx">
+        <metrics statements="11" coveredstatements="2" conditionals="29" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="0" type="cond" truecount="0" falsecount="6"/>
+        <line num="8" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="10" count="0" type="cond" truecount="0" falsecount="6"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="cond" truecount="0" falsecount="8"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="18" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="20" count="0" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>

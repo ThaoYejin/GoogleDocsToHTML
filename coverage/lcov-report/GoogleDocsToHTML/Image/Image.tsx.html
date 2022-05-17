@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">88.88% </span>
+                <span class="strong">33.33% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>8/9</span>
+                <span class='fraction'>3/9</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">77.77% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>21/27</span>
+                <span class='fraction'>0/27</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>1/1</span>
+                <span class='fraction'>0/1</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">87.5% </span>
+                <span class="strong">25% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>7/8</span>
+                <span class='fraction'>2/8</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line high'></div>
+    <div class='status-line low'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -95,14 +95,7 @@
 <a name='L30'></a><a href='#L30'>30</a>
 <a name='L31'></a><a href='#L31'>31</a>
 <a name='L32'></a><a href='#L32'>32</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">5x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -111,13 +104,20 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -133,22 +133,22 @@ export interface ImageProps {
     doc: docs_v1.Schema$Document;
 }
 &nbsp;
-export const Image: React.FC&lt;ImageProps&gt; = ({
+export const Image: React.FC&lt;ImageProps&gt; = <span class="fstat-no" title="function not covered" >({</span>
     element,
     doc
 }) =&gt; {
     var inlineObjID: (string | undefined);
 &nbsp;
     //Get the ID of the image
-    inlineObjID = element<span class="branch-0 cbranch-no" title="branch not covered" >?.i</span>nlineObjectElement<span class="branch-0 cbranch-no" title="branch not covered" >?.i</span>nlineObjectId!;
+<span class="cstat-no" title="statement not covered" >    inlineObjID = element?.inlineObjectElement?.inlineObjectId!;</span>
 &nbsp;
-    var inlineObj = doc<span class="branch-0 cbranch-no" title="branch not covered" >?.i</span>nlineObjects;
+    var inlineObj = <span class="cstat-no" title="statement not covered" >doc?.inlineObjects;</span>
     var source: (string | undefined);
 &nbsp;
     //Get the URL of the image
-    if (inlineObjID != undefined &amp;&amp; inlineObj != undefined) {
-        source = inlineObj[inlineObjID].inlineObjectProperties<span class="branch-0 cbranch-no" title="branch not covered" >?.e</span>mbeddedObject<span class="branch-0 cbranch-no" title="branch not covered" >?.i</span>mageProperties<span class="branch-0 cbranch-no" title="branch not covered" >?.c</span>ontentUri!;
-        return (
+<span class="cstat-no" title="statement not covered" >    <span class="missing-if-branch" title="if path not taken" >I</span>if (inlineObjID != undefined &amp;&amp; inlineObj != undefined) {</span>
+<span class="cstat-no" title="statement not covered" >        source = inlineObj[inlineObjID].inlineObjectProperties?.embeddedObject?.imageProperties?.contentUri!;</span>
+<span class="cstat-no" title="statement not covered" >        return (</span>
             &lt;img src={source} /&gt;
         )
     }
@@ -163,7 +163,7 @@ export const Image: React.FC&lt;ImageProps&gt; = ({
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at Thu May 12 2022 17:15:17 GMT-0700 (Pacific Daylight Time)
+                at Mon May 16 2022 18:34:48 GMT-0700 (Pacific Daylight Time)
             </div>
         <script src="../../prettify.js"></script>
         <script>

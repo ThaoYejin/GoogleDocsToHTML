@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Paragraph Image runs correctly 1`] = `
+<p>
+  <img
+    src="https://lh5.googleusercontent.com/227wZYprRh_IEImeCfwbwrTFEPCnGhADmEmc9m91RnrHwut-a20xv5Ls0ApQRj8lqG5MRwXkRDulj4ddTczJPnIOzVeIaOGfoywS9By-nJc5W59VW4M-UEwx0f1cwhOfB39asOg_2D4V7Jdhfaocthxa1n8"
+  />
+  <span
+    style={
+      Object {
+        "fontSize": 12,
+      }
+    }
+  >
+    
+
+  </span>
+</p>
+`;
+
+exports[`Paragraph Link runs correctly 1`] = `
+<p>
+  <a
+    href="https://www.facebook.com/thaoho0806"
+  >
+    <span
+      style={
+        Object {
+          "color": "rgb(17.00000085,85.0000017,204)",
+          "fontSize": 12,
+          "textDecoration": "underline",
+        }
+      }
+    >
+      Thao FB
+    </span>
+  </a>
+  <span
+    style={
+      Object {
+        "fontSize": 12,
+      }
+    }
+  >
+    
+
+  </span>
+</p>
+`;
+
+exports[`Paragraph TextRun runs correctly 1`] = `
+<p>
+  <span
+    style={
+      Object {
+        "fontSize": 12,
+      }
+    }
+  >
+    This is a normal paragraph!!!!
+  </span>
+  <span
+    style={
+      Object {
+        "fontSize": 12,
+      }
+    }
+  >
+    
+
+  </span>
+</p>
+`;

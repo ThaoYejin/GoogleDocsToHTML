@@ -1,0 +1,361 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table with one cell and style runs correctly 1`] = `
+<table
+  style={
+    Object {
+      "borderBottom": "1px SOLID rgb(0,0,0)",
+      "borderCollapse": "collapse",
+      "borderLeft": "1px SOLID rgb(0,0,0)",
+      "borderRight": "1px SOLID rgb(0,0,0)",
+      "borderTop": "1px SOLID rgb(0,0,0)",
+    }
+  }
+>
+  <tr>
+    <td
+      colSpan={1}
+      rowSpan={1}
+      style={
+        Object {
+          "borderBottom": "1px SOLID rgb(0,0,0)",
+          "borderCollapse": "collapse",
+          "borderLeft": "1px SOLID rgb(0,0,0)",
+          "borderRight": "1px SOLID rgb(0,0,0)",
+          "borderTop": "1px SOLID rgb(0,0,0)",
+        }
+      }
+    >
+      <p>
+        <span
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Item 1
+
+        </span>
+      </p>
+    </td>
+  </tr>
+</table>
+`;
+
+exports[`Table with one column runs correctly 1`] = `
+<table
+  style={
+    Object {
+      "borderBottom": "1px SOLID rgb(0,0,0)",
+      "borderCollapse": "collapse",
+      "borderLeft": "1px SOLID rgb(0,0,0)",
+      "borderRight": "1px SOLID rgb(0,0,0)",
+      "borderTop": "1px SOLID rgb(0,0,0)",
+    }
+  }
+>
+  <tr>
+    <td
+      colSpan={1}
+      rowSpan={1}
+      style={
+        Object {
+          "borderBottom": "1px SOLID rgb(0,0,0)",
+          "borderCollapse": "collapse",
+          "borderLeft": "1px SOLID rgb(0,0,0)",
+          "borderRight": "1px SOLID rgb(0,0,0)",
+          "borderTop": "1px SOLID rgb(0,0,0)",
+        }
+      }
+    >
+      <p>
+        <span
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Item 1
+
+        </span>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td
+      colSpan={1}
+      rowSpan={1}
+      style={
+        Object {
+          "borderBottom": "1px SOLID rgb(0,0,0)",
+          "borderCollapse": "collapse",
+          "borderLeft": "1px SOLID rgb(0,0,0)",
+          "borderRight": "1px SOLID rgb(0,0,0)",
+          "borderTop": "1px SOLID rgb(0,0,0)",
+        }
+      }
+    >
+      <p>
+        <span
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Item 2
+
+        </span>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td
+      colSpan={1}
+      rowSpan={1}
+      style={
+        Object {
+          "borderBottom": "1px SOLID rgb(0,0,0)",
+          "borderCollapse": "collapse",
+          "borderLeft": "1px SOLID rgb(0,0,0)",
+          "borderRight": "1px SOLID rgb(0,0,0)",
+          "borderTop": "1px SOLID rgb(0,0,0)",
+        }
+      }
+    >
+      <p>
+        <span
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Item 3
+
+        </span>
+      </p>
+    </td>
+  </tr>
+</table>
+`;
+
+exports[`Table with one row runs correctly 1`] = `
+<table
+  style={
+    Object {
+      "borderBottom": "1px SOLID rgb(0,0,0)",
+      "borderCollapse": "collapse",
+      "borderLeft": "1px SOLID rgb(0,0,0)",
+      "borderRight": "1px SOLID rgb(0,0,0)",
+      "borderTop": "1px SOLID rgb(0,0,0)",
+    }
+  }
+>
+  <tr>
+    <td
+      colSpan={1}
+      rowSpan={1}
+      style={
+        Object {
+          "borderBottom": "1px SOLID rgb(0,0,0)",
+          "borderCollapse": "collapse",
+          "borderLeft": "1px SOLID rgb(0,0,0)",
+          "borderRight": "1px SOLID rgb(0,0,0)",
+          "borderTop": "1px SOLID rgb(0,0,0)",
+        }
+      }
+    >
+      <p>
+        <span
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Item 1
+
+        </span>
+      </p>
+    </td>
+    <td
+      colSpan={1}
+      rowSpan={1}
+      style={
+        Object {
+          "borderBottom": "1px SOLID rgb(0,0,0)",
+          "borderCollapse": "collapse",
+          "borderLeft": "1px SOLID rgb(0,0,0)",
+          "borderRight": "1px SOLID rgb(0,0,0)",
+          "borderTop": "1px SOLID rgb(0,0,0)",
+        }
+      }
+    >
+      <p>
+        <span
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Item 2
+
+        </span>
+      </p>
+    </td>
+    <td
+      colSpan={1}
+      rowSpan={1}
+      style={
+        Object {
+          "borderBottom": "1px SOLID rgb(0,0,0)",
+          "borderCollapse": "collapse",
+          "borderLeft": "1px SOLID rgb(0,0,0)",
+          "borderRight": "1px SOLID rgb(0,0,0)",
+          "borderTop": "1px SOLID rgb(0,0,0)",
+        }
+      }
+    >
+      <p>
+        <span
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Item 3
+
+        </span>
+      </p>
+    </td>
+  </tr>
+</table>
+`;
+
+exports[`Table with two columns and two rows runs correctly 1`] = `
+<table
+  style={
+    Object {
+      "borderBottom": "1px SOLID rgb(0,0,0)",
+      "borderCollapse": "collapse",
+      "borderLeft": "1px SOLID rgb(0,0,0)",
+      "borderRight": "1px SOLID rgb(0,0,0)",
+      "borderTop": "1px SOLID rgb(0,0,0)",
+    }
+  }
+>
+  <tr>
+    <td
+      colSpan={1}
+      rowSpan={1}
+      style={
+        Object {
+          "borderBottom": "1px SOLID rgb(0,0,0)",
+          "borderCollapse": "collapse",
+          "borderLeft": "1px SOLID rgb(0,0,0)",
+          "borderRight": "1px SOLID rgb(0,0,0)",
+          "borderTop": "1px SOLID rgb(0,0,0)",
+        }
+      }
+    >
+      <p>
+        <span
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Northwest Cell
+
+        </span>
+      </p>
+    </td>
+    <td
+      colSpan={1}
+      rowSpan={1}
+      style={
+        Object {
+          "borderBottom": "1px SOLID rgb(0,0,0)",
+          "borderCollapse": "collapse",
+          "borderLeft": "1px SOLID rgb(0,0,0)",
+          "borderRight": "1px SOLID rgb(0,0,0)",
+          "borderTop": "1px SOLID rgb(0,0,0)",
+        }
+      }
+    >
+      <p>
+        <span
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Northeast Cell
+
+        </span>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td
+      colSpan={1}
+      rowSpan={1}
+      style={
+        Object {
+          "borderBottom": "1px SOLID rgb(0,0,0)",
+          "borderCollapse": "collapse",
+          "borderLeft": "1px SOLID rgb(0,0,0)",
+          "borderRight": "1px SOLID rgb(0,0,0)",
+          "borderTop": "1px SOLID rgb(0,0,0)",
+        }
+      }
+    >
+      <p>
+        <span
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Northeast Cell
+
+        </span>
+      </p>
+    </td>
+    <td
+      colSpan={1}
+      rowSpan={1}
+      style={
+        Object {
+          "borderBottom": "1px SOLID rgb(0,0,0)",
+          "borderCollapse": "collapse",
+          "borderLeft": "1px SOLID rgb(0,0,0)",
+          "borderRight": "1px SOLID rgb(0,0,0)",
+          "borderTop": "1px SOLID rgb(0,0,0)",
+        }
+      }
+    >
+      <p>
+        <span
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          Southeast Cell
+
+        </span>
+      </p>
+    </td>
+  </tr>
+</table>
+`;

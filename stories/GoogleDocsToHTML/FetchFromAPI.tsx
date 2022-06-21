@@ -1,13 +1,7 @@
 import React, { useState } from 'react';
-import { ComponentStory, ComponentMeta } from '@storybook/react';
-import { GoogleDocsToHTML } from "../src/GoogleDocsToHTML/GoogleDocsToHTML";
 
-// More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
-export default {
-  title: 'Example/GOOGLEDOCSTOHTML_FetchFromAPI',
-  component: GoogleDocsToHTML,
-  // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
-} as ComponentMeta<typeof GoogleDocsToHTML>;
+import { ComponentStory } from '@storybook/react';
+import { GoogleDocsToHTML } from "../../src/GoogleDocsToHTML/GoogleDocsToHTML";
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 const Template: ComponentStory<typeof GoogleDocsToHTML> = (args) => {
@@ -45,4 +39,4 @@ const Template: ComponentStory<typeof GoogleDocsToHTML> = (args) => {
   );
 };
 
-export const Test = Template.bind({});
+export const FetchFromAPI = Template.bind({});

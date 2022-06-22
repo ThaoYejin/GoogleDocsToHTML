@@ -7,12 +7,7 @@ module.exports = {
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
-    {
-      name: '@storybook/addon-docs',
-      options: {
-        transcludeMarkdown: true,
-      }
-    }
+    "@storybook/addon-docs"
   ],
   "framework": "@storybook/react"
 }

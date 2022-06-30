@@ -1,7 +1,7 @@
 {
   "name": "googledocs-to-html",
   "version": "1.0.0",
-  "description": "",
+  "description": "convert google docs to html",
   "scripts": {
     "test": "jest",
     "storybook": "start-storybook -p 6006",

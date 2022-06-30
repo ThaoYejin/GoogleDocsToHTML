@@ -4,11 +4,5 @@ import Readme from '../README.md';
 <Meta title="Introduction" />
 
 <Description>
-    { 
-        (function(){
-            // this is needed to remove first 2 chars and all null chars
-            // Weird pattern but it works here, hopefully storybook improve in the future
-            return Readme.slice(2).replace(/\0/g, '');
-        })() 
-    }
+    {Readme}
 </Description>

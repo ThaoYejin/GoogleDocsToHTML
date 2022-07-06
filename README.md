@@ -49,12 +49,12 @@ Example:
 
 1. Static Json sample
 
-    Please refer to [Static Json Sample](/?path=/story/googledocstohtml--static-json)
+    Please refer to [Static Json Sample](https://googledocs-to-html.netlify.app/?path=/story/googledocstohtml--static-json)
 
 
 2. Fetch from API sample
 
-    Please refer to [Fetch from API Sample](/?path=/story/googledocstohtml--fetch-from-api)
+    Please refer to [Fetch from API Sample](https://googledocs-to-html.netlify.app/?path=/story/googledocstohtml--fetch-from-api)
 
 ## License
 

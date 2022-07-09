@@ -4,7 +4,7 @@ import { Table } from "./Table";
 import * as OneCell from './OneCell.json';
 import * as OneRow from './OneRow.json';
 import * as OneColumn from './OneColumn.json';
-import * as TableDoc from './Table.json';
+import * as TableDoc from './TableTest.json';
 
 it("Table with one cell and style runs correctly", ()=>{
     var table = {

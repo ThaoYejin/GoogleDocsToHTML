@@ -8,8 +8,17 @@
     "build-storybook": "build-storybook",
     "build": "rollup -c"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "googledocs",
+    "googledocstohtml",
+    "googledocstoweb",
+    "googledocsapi",
+    "googledocswebsite",
+    "webgoogledoc",
+    "webgoogledocs",
+    "googledocweb"
+  ],
+  "author": "Thao_Yejin",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.17.10",

@@ -31,15 +31,21 @@ Array [
         "children": Array [
           Object {
             "children": Array [
-              "First Item
+              Object {
+                "children": Array [
+                  "First Item
 ",
-            ],
-            "props": Object {
-              "style": Object {
-                "fontSize": "12px",
+                ],
+                "props": Object {
+                  "style": Object {
+                    "fontSize": "12px",
+                  },
+                },
+                "type": "span",
               },
-            },
-            "type": "span",
+            ],
+            "props": Object {},
+            "type": "p",
           },
         ],
         "props": Object {},
@@ -49,15 +55,21 @@ Array [
         "children": Array [
           Object {
             "children": Array [
-              "Second Item
+              Object {
+                "children": Array [
+                  "Second Item
 ",
-            ],
-            "props": Object {
-              "style": Object {
-                "fontSize": "12px",
+                ],
+                "props": Object {
+                  "style": Object {
+                    "fontSize": "12px",
+                  },
+                },
+                "type": "span",
               },
-            },
-            "type": "span",
+            ],
+            "props": Object {},
+            "type": "p",
           },
         ],
         "props": Object {},

@@ -9,15 +9,21 @@ Array [
         "children": Array [
           Object {
             "children": Array [
-              "Item 1
+              Object {
+                "children": Array [
+                  "Item 1
 ",
-            ],
-            "props": Object {
-              "style": Object {
-                "fontSize": "12px",
+                ],
+                "props": Object {
+                  "style": Object {
+                    "fontSize": "12px",
+                  },
+                },
+                "type": "span",
               },
-            },
-            "type": "span",
+            ],
+            "props": Object {},
+            "type": "p",
           },
         ],
         "props": Object {},
@@ -27,14 +33,32 @@ Array [
         "children": Array [
           Object {
             "children": Array [
-              "Item 2",
-            ],
-            "props": Object {
-              "style": Object {
-                "fontSize": "12px",
+              Object {
+                "children": Array [
+                  "Item 2",
+                ],
+                "props": Object {
+                  "style": Object {
+                    "fontSize": "12px",
+                  },
+                },
+                "type": "span",
               },
-            },
-            "type": "span",
+              Object {
+                "children": Array [
+                  "
+",
+                ],
+                "props": Object {
+                  "style": Object {
+                    "fontSize": "12px",
+                  },
+                },
+                "type": "span",
+              },
+            ],
+            "props": Object {},
+            "type": "p",
           },
         ],
         "props": Object {},
@@ -56,15 +80,21 @@ Array [
         "children": Array [
           Object {
             "children": Array [
-              "Item 1
+              Object {
+                "children": Array [
+                  "Item 1
 ",
-            ],
-            "props": Object {
-              "style": Object {
-                "fontSize": "12px",
+                ],
+                "props": Object {
+                  "style": Object {
+                    "fontSize": "12px",
+                  },
+                },
+                "type": "span",
               },
-            },
-            "type": "span",
+            ],
+            "props": Object {},
+            "type": "p",
           },
         ],
         "props": Object {},
@@ -74,14 +104,32 @@ Array [
         "children": Array [
           Object {
             "children": Array [
-              "Item 2",
-            ],
-            "props": Object {
-              "style": Object {
-                "fontSize": "12px",
+              Object {
+                "children": Array [
+                  "Item 2",
+                ],
+                "props": Object {
+                  "style": Object {
+                    "fontSize": "12px",
+                  },
+                },
+                "type": "span",
               },
-            },
-            "type": "span",
+              Object {
+                "children": Array [
+                  "
+",
+                ],
+                "props": Object {
+                  "style": Object {
+                    "fontSize": "12px",
+                  },
+                },
+                "type": "span",
+              },
+            ],
+            "props": Object {},
+            "type": "p",
           },
         ],
         "props": Object {},
@@ -103,27 +151,9 @@ Array [
         "children": Array [
           Object {
             "children": Array [
-              "Item 1
-",
-            ],
-            "props": Object {
-              "style": Object {
-                "fontSize": "12px",
-              },
-            },
-            "type": "span",
-          },
-        ],
-        "props": Object {},
-        "type": "li",
-      },
-      Object {
-        "children": Array [
-          Object {
-            "children": Array [
               Object {
                 "children": Array [
-                  "Nested item 1
+                  "Item 1
 ",
                 ],
                 "props": Object {
@@ -135,21 +165,57 @@ Array [
               },
             ],
             "props": Object {},
+            "type": "p",
+          },
+        ],
+        "props": Object {},
+        "type": "li",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "children": Array [
+                      "Nested item 1
+",
+                    ],
+                    "props": Object {
+                      "style": Object {
+                        "fontSize": "12px",
+                      },
+                    },
+                    "type": "span",
+                  },
+                ],
+                "props": Object {},
+                "type": "p",
+              },
+            ],
+            "props": Object {},
             "type": "li",
           },
           Object {
             "children": Array [
               Object {
                 "children": Array [
-                  "Nested item 2
+                  Object {
+                    "children": Array [
+                      "Nested item 2
 ",
-                ],
-                "props": Object {
-                  "style": Object {
-                    "fontSize": "12px",
+                    ],
+                    "props": Object {
+                      "style": Object {
+                        "fontSize": "12px",
+                      },
+                    },
+                    "type": "span",
                   },
-                },
-                "type": "span",
+                ],
+                "props": Object {},
+                "type": "p",
               },
             ],
             "props": Object {},
@@ -163,14 +229,32 @@ Array [
         "children": Array [
           Object {
             "children": Array [
-              "Item 2",
-            ],
-            "props": Object {
-              "style": Object {
-                "fontSize": "12px",
+              Object {
+                "children": Array [
+                  "Item 2",
+                ],
+                "props": Object {
+                  "style": Object {
+                    "fontSize": "12px",
+                  },
+                },
+                "type": "span",
               },
-            },
-            "type": "span",
+              Object {
+                "children": Array [
+                  "
+",
+                ],
+                "props": Object {
+                  "style": Object {
+                    "fontSize": "12px",
+                  },
+                },
+                "type": "span",
+              },
+            ],
+            "props": Object {},
+            "type": "p",
           },
         ],
         "props": Object {},
@@ -192,27 +276,9 @@ Array [
         "children": Array [
           Object {
             "children": Array [
-              "Item 1
-",
-            ],
-            "props": Object {
-              "style": Object {
-                "fontSize": "12px",
-              },
-            },
-            "type": "span",
-          },
-        ],
-        "props": Object {},
-        "type": "li",
-      },
-      Object {
-        "children": Array [
-          Object {
-            "children": Array [
               Object {
                 "children": Array [
-                  "Nested item 1
+                  "Item 1
 ",
                 ],
                 "props": Object {
@@ -224,15 +290,21 @@ Array [
               },
             ],
             "props": Object {},
-            "type": "li",
+            "type": "p",
           },
+        ],
+        "props": Object {},
+        "type": "li",
+      },
+      Object {
+        "children": Array [
           Object {
             "children": Array [
               Object {
                 "children": Array [
                   Object {
                     "children": Array [
-                      "Nested nested item 1
+                      "Nested item 1
 ",
                     ],
                     "props": Object {
@@ -244,21 +316,57 @@ Array [
                   },
                 ],
                 "props": Object {},
+                "type": "p",
+              },
+            ],
+            "props": Object {},
+            "type": "li",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "children": Array [
+                      Object {
+                        "children": Array [
+                          "Nested nested item 1
+",
+                        ],
+                        "props": Object {
+                          "style": Object {
+                            "fontSize": "12px",
+                          },
+                        },
+                        "type": "span",
+                      },
+                    ],
+                    "props": Object {},
+                    "type": "p",
+                  },
+                ],
+                "props": Object {},
                 "type": "li",
               },
               Object {
                 "children": Array [
                   Object {
                     "children": Array [
-                      "Nested nested item 2
+                      Object {
+                        "children": Array [
+                          "Nested nested item 2
 ",
-                    ],
-                    "props": Object {
-                      "style": Object {
-                        "fontSize": "12px",
+                        ],
+                        "props": Object {
+                          "style": Object {
+                            "fontSize": "12px",
+                          },
+                        },
+                        "type": "span",
                       },
-                    },
-                    "type": "span",
+                    ],
+                    "props": Object {},
+                    "type": "p",
                   },
                 ],
                 "props": Object {},
@@ -272,15 +380,21 @@ Array [
             "children": Array [
               Object {
                 "children": Array [
-                  "Nested item 2
+                  Object {
+                    "children": Array [
+                      "Nested item 2
 ",
-                ],
-                "props": Object {
-                  "style": Object {
-                    "fontSize": "12px",
+                    ],
+                    "props": Object {
+                      "style": Object {
+                        "fontSize": "12px",
+                      },
+                    },
+                    "type": "span",
                   },
-                },
-                "type": "span",
+                ],
+                "props": Object {},
+                "type": "p",
               },
             ],
             "props": Object {},
@@ -294,14 +408,32 @@ Array [
         "children": Array [
           Object {
             "children": Array [
-              "Item 2",
-            ],
-            "props": Object {
-              "style": Object {
-                "fontSize": "12px",
+              Object {
+                "children": Array [
+                  "Item 2",
+                ],
+                "props": Object {
+                  "style": Object {
+                    "fontSize": "12px",
+                  },
+                },
+                "type": "span",
               },
-            },
-            "type": "span",
+              Object {
+                "children": Array [
+                  "
+",
+                ],
+                "props": Object {
+                  "style": Object {
+                    "fontSize": "12px",
+                  },
+                },
+                "type": "span",
+              },
+            ],
+            "props": Object {},
+            "type": "p",
           },
         ],
         "props": Object {},
@@ -323,15 +455,21 @@ Array [
         "children": Array [
           Object {
             "children": Array [
-              "Item 1
+              Object {
+                "children": Array [
+                  "Item 1
 ",
-            ],
-            "props": Object {
-              "style": Object {
-                "fontSize": "12px",
+                ],
+                "props": Object {
+                  "style": Object {
+                    "fontSize": "12px",
+                  },
+                },
+                "type": "span",
               },
-            },
-            "type": "span",
+            ],
+            "props": Object {},
+            "type": "p",
           },
         ],
         "props": Object {},
@@ -341,14 +479,32 @@ Array [
         "children": Array [
           Object {
             "children": Array [
-              "Item 2",
-            ],
-            "props": Object {
-              "style": Object {
-                "fontSize": "12px",
+              Object {
+                "children": Array [
+                  "Item 2",
+                ],
+                "props": Object {
+                  "style": Object {
+                    "fontSize": "12px",
+                  },
+                },
+                "type": "span",
               },
-            },
-            "type": "span",
+              Object {
+                "children": Array [
+                  "
+",
+                ],
+                "props": Object {
+                  "style": Object {
+                    "fontSize": "12px",
+                  },
+                },
+                "type": "span",
+              },
+            ],
+            "props": Object {},
+            "type": "p",
           },
         ],
         "props": Object {},

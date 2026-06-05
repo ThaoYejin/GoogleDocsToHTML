@@ -1,8 +1,8 @@
 import { docs_v1 } from "googleapis";
 import React from "react";
-import { TextRun } from "../../GoogleDocsToHTML/TextRun/TextRun";
+import { Paragraph } from "../../GoogleDocsToHTML/Paragraph/Paragraph";
 
-export function renderList(listObjArr: docs_v1.Schema$Paragraph[], level: number, startIndex: number, listType:string, listStyle:string[][]): [React.ReactNode, number] {
+export function renderList(listObjArr: docs_v1.Schema$Paragraph[], level: number, startIndex: number, listType:string, listStyle:string[][], doc: docs_v1.Schema$Document): [React.ReactNode, number] {
  
     //Initialize content array
     var content: React.ReactNode[] = [];
@@ -22,9 +22,9 @@ export function renderList(listObjArr: docs_v1.Schema$Paragraph[], level: number
 
         //If same nesting level -> push <li> tag to content
         if (nestingLevel == level) {
-            liContent = <TextRun element={listObjArr![i].elements![0]}></TextRun>
+            liContent = <Paragraph paraObj={listObjArr![i]} doc={doc}></Paragraph>
             content.push(
-                <li>
+                <li key={i}>
                     {liContent}
                 </li>
             )
@@ -55,7 +55,7 @@ export function renderList(listObjArr: docs_v1.Schema$Paragraph[], level: number
             } else if (listStyle[1][i] != undefined) {
                 listType = "ol";
             }
-            var nestedList = renderList(listObjArr, level + 1, i, listType, listStyle);
+            var nestedList = renderList(listObjArr, level + 1, i, listType, listStyle, doc);
             i = nestedList![1];
             content.push(nestedList[0]);
         }

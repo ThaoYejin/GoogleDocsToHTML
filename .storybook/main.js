@@ -1,14 +1,22 @@
 module.exports = {
   "stories": [
-    "../stories/**/*.stories.mdx",
+    "../stories/**/*.mdx",
     "../stories/**/*.stories.@(js|jsx|ts|tsx)"
   ],
   "addons": [
     "@storybook/addon-links",
-    "@storybook/addon-essentials",
-    "@storybook/addon-interactions",
     "@storybook/addon-docs",
-    "@storybook/addon-google-analytics"
+    "@storybook/addon-webpack5-compiler-babel"
   ],
-  "framework": "@storybook/react"
+  "framework": {
+    "name": "@storybook/react-webpack5",
+    "options": {}
+  },
+  webpackFinal: async (config) => {
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      "@storybook/blocks": require.resolve("@storybook/addon-docs/blocks"),
+    };
+    return config;
+  }
 }

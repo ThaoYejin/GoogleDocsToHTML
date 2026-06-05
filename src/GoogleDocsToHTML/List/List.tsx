@@ -39,7 +39,7 @@ export function List(doc: docs_v1.Schema$Document, startIndex: number): [React.R
         listType = "ol";
     }
 
-    var content = renderList(listObjArr, 0, 0, listType, listStyle);
+    var content = renderList(listObjArr, 0, 0, listType, listStyle, doc);
 
     return [content[0], listObjArr.length];
 }

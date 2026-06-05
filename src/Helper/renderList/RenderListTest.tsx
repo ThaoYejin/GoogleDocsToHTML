@@ -7,7 +7,8 @@ export interface RenderProps{
     level: number, 
     startIndex: number, 
     listType:string, 
-    listStyle:string[][]
+    listStyle:string[][],
+    doc?: docs_v1.Schema$Document
 }
 
 export const RenderListTest: React.FC<RenderProps> =({
@@ -15,10 +16,11 @@ export const RenderListTest: React.FC<RenderProps> =({
     level,
     startIndex,
     listType,
-    listStyle
+    listStyle,
+    doc
 }
 )=>{
-    var content = renderList(listObjArr,level,startIndex,listType,listStyle);
+    var content = renderList(listObjArr,level,startIndex,listType,listStyle, doc || ({} as docs_v1.Schema$Document));
     var newi = content[1];
     return (
         <>

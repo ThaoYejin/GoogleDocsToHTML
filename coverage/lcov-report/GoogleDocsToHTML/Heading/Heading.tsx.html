@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">21.05% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>19/19</span>
+                <span class='fraction'>4/19</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>26/26</span>
+                <span class='fraction'>0/26</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>2/2</span>
+                <span class='fraction'>0/2</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">16.66% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>18/18</span>
+                <span class='fraction'>3/18</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line high'></div>
+    <div class='status-line low'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -133,46 +133,46 @@
 <span class="cline-any cline-yes">11x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">12x</span>
-<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">12x</span>
-<span class="cline-any cline-yes">8x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">12x</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">11x</span>
-<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">9x</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">8x</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">7x</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -187,49 +187,49 @@ export interface HTagProps {
     paraObj?: docs_v1.Schema$Paragraph;
 }
 &nbsp;
-export const Heading: React.FC&lt;HTagProps&gt; = ({
+export const Heading: React.FC&lt;HTagProps&gt; = <span class="fstat-no" title="function not covered" >({</span>
     paraObj
 }) =&gt; {
-    var hType = paraObj?.paragraphStyle?.namedStyleType;
-    var content: React.ReactNode[] = [];
+    var hType = <span class="cstat-no" title="statement not covered" >paraObj?.paragraphStyle?.namedStyleType;</span>
+    var content: React.ReactNode[] = <span class="cstat-no" title="statement not covered" >[];</span>
 &nbsp;
     //Get the content of the heading tag
-    paraObj?.elements?.forEach(function (element, index) {
-        content.push(&lt;TextRun key={index} element={element}&gt;&lt;/TextRun&gt;);
+<span class="cstat-no" title="statement not covered" >    paraObj?.elements?.forEach(<span class="fstat-no" title="function not covered" >function (e</span>lement, index) {</span>
+<span class="cstat-no" title="statement not covered" >        content.push(&lt;TextRun key={index} element={element}&gt;&lt;/TextRun&gt;);</span>
     })
 &nbsp;
     //Check the type of the heading and return the tag type accordingly
-    if (hType == "HEADING_1") {
-        return (
+<span class="cstat-no" title="statement not covered" >    if (hType == "HEADING_1") {</span>
+<span class="cstat-no" title="statement not covered" >        return (</span>
             &lt;h1&gt;
                 {content}
             &lt;/h1&gt;
         )
-    } else if (hType == "HEADING_2") {
-        return (
+    } else <span class="cstat-no" title="statement not covered" >if (hType == "HEADING_2") {</span>
+<span class="cstat-no" title="statement not covered" >        return (</span>
             &lt;h2&gt;
                 {content}
             &lt;/h2&gt;
         )
-    } else if (hType == "HEADING_3") {
-        return (
+    } else <span class="cstat-no" title="statement not covered" >if (hType == "HEADING_3") {</span>
+<span class="cstat-no" title="statement not covered" >        return (</span>
             &lt;h3&gt;
                 {content}
             &lt;/h3&gt;
         )
-    } else if (hType == "HEADING_4") {
-        return (
+    } else <span class="cstat-no" title="statement not covered" >if (hType == "HEADING_4") {</span>
+<span class="cstat-no" title="statement not covered" >        return (</span>
             &lt;h4&gt;
                 {content}
             &lt;/h4&gt;
         )
-    } else if (hType == "HEADING_5") {
-        return (
+    } else <span class="cstat-no" title="statement not covered" >if (hType == "HEADING_5") {</span>
+<span class="cstat-no" title="statement not covered" >        return (</span>
             &lt;h5&gt;
                 {content}
             &lt;/h5&gt;
         )
-    } else return (
+    } else <span class="cstat-no" title="statement not covered" >return (</span>
         &lt;h6&gt;
             {content}
         &lt;/h6&gt;
@@ -241,7 +241,7 @@ export const Heading: React.FC&lt;HTagProps&gt; = ({
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at Thu May 19 2022 16:18:12 GMT-0700 (Pacific Daylight Time)
+                at Fri Jun 05 2026 00:16:45 GMT-0700 (GMT-07:00)
             </div>
         <script src="../../prettify.js"></script>
         <script>

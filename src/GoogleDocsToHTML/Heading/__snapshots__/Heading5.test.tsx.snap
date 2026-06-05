@@ -1,12 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<h5>
-  <span
-    style={Object {}}
-  >
-    Heading 5
-
-  </span>
-</h5>
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        "Heading 5
+",
+      ],
+      "props": Object {},
+      "type": "span",
+    },
+  ],
+  "props": Object {},
+  "type": "h5",
+}
 `;

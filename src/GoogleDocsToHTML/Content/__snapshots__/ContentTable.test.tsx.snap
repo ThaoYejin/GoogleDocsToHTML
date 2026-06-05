@@ -2,150 +2,211 @@
 
 exports[`renders correctly 1`] = `
 Array [
-  <h6 />,
-  <p>
-    <span
-      style={
-        Object {
-          "color": "rgb(64.000002,64.000002,64.000002)",
-          "fontSize": 12,
-        }
-      }
-    >
-      
-
-    </span>
-  </p>,
-  <h6 />,
-  <table
-    style={
+  Object {
+    "children": null,
+    "props": Object {},
+    "type": "h6",
+  },
+  Object {
+    "children": Array [
       Object {
+        "children": Array [
+          "
+",
+        ],
+        "props": Object {
+          "style": Object {
+            "fontSize": "12px",
+          },
+        },
+        "type": "span",
+      },
+    ],
+    "props": Object {},
+    "type": "p",
+  },
+  Object {
+    "children": null,
+    "props": Object {},
+    "type": "h6",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "children": Array [
+                      "First
+",
+                    ],
+                    "props": Object {
+                      "style": Object {
+                        "fontSize": "12px",
+                      },
+                    },
+                    "type": "span",
+                  },
+                ],
+                "props": Object {},
+                "type": "p",
+              },
+            ],
+            "props": Object {
+              "colspan": "1",
+              "rowspan": "1",
+              "style": Object {
+                "borderCollapse": "collapse",
+              },
+            },
+            "type": "td",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "children": Array [
+                      "Second
+",
+                    ],
+                    "props": Object {
+                      "style": Object {
+                        "fontSize": "12px",
+                      },
+                    },
+                    "type": "span",
+                  },
+                ],
+                "props": Object {},
+                "type": "p",
+              },
+            ],
+            "props": Object {
+              "colspan": "1",
+              "rowspan": "1",
+              "style": Object {
+                "borderCollapse": "collapse",
+              },
+            },
+            "type": "td",
+          },
+        ],
+        "props": Object {},
+        "type": "tr",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "children": Array [
+                      "Third
+",
+                    ],
+                    "props": Object {
+                      "style": Object {
+                        "fontSize": "12px",
+                      },
+                    },
+                    "type": "span",
+                  },
+                ],
+                "props": Object {},
+                "type": "p",
+              },
+            ],
+            "props": Object {
+              "colspan": "1",
+              "rowspan": "1",
+              "style": Object {
+                "borderCollapse": "collapse",
+              },
+            },
+            "type": "td",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "children": Array [
+                      "Fourth
+",
+                    ],
+                    "props": Object {
+                      "style": Object {
+                        "fontSize": "12px",
+                      },
+                    },
+                    "type": "span",
+                  },
+                ],
+                "props": Object {},
+                "type": "p",
+              },
+            ],
+            "props": Object {
+              "colspan": "1",
+              "rowspan": "1",
+              "style": Object {
+                "borderCollapse": "collapse",
+              },
+            },
+            "type": "td",
+          },
+        ],
+        "props": Object {},
+        "type": "tr",
+      },
+    ],
+    "props": Object {
+      "style": Object {
         "borderCollapse": "collapse",
-      }
-    }
-  >
-    <tr>
-      <td
-        colSpan={1}
-        rowSpan={1}
-        style={
-          Object {
-            "borderCollapse": "collapse",
-          }
-        }
-      >
-        <p>
-          <span
-            style={
-              Object {
-                "color": "rgb(64.000002,64.000002,64.000002)",
-                "fontSize": 12,
-              }
-            }
-          >
-            First
-
-          </span>
-        </p>
-      </td>
-      <td
-        colSpan={1}
-        rowSpan={1}
-        style={
-          Object {
-            "borderCollapse": "collapse",
-          }
-        }
-      >
-        <p>
-          <span
-            style={
-              Object {
-                "color": "rgb(64.000002,64.000002,64.000002)",
-                "fontSize": 12,
-              }
-            }
-          >
-            Second
-
-          </span>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td
-        colSpan={1}
-        rowSpan={1}
-        style={
-          Object {
-            "borderCollapse": "collapse",
-          }
-        }
-      >
-        <p>
-          <span
-            style={
-              Object {
-                "color": "rgb(64.000002,64.000002,64.000002)",
-                "fontSize": 12,
-              }
-            }
-          >
-            Third
-
-          </span>
-        </p>
-      </td>
-      <td
-        colSpan={1}
-        rowSpan={1}
-        style={
-          Object {
-            "borderCollapse": "collapse",
-          }
-        }
-      >
-        <p>
-          <span
-            style={
-              Object {
-                "color": "rgb(64.000002,64.000002,64.000002)",
-                "fontSize": 12,
-              }
-            }
-          >
-            Fourth
-
-          </span>
-        </p>
-      </td>
-    </tr>
-  </table>,
-  <p>
-    <span
-      style={
-        Object {
-          "color": "rgb(64.000002,64.000002,64.000002)",
-          "fontSize": 12,
-        }
-      }
-    >
-      
-
-    </span>
-  </p>,
-  <p>
-    <span
-      style={
-        Object {
-          "color": "rgb(64.000002,64.000002,64.000002)",
-          "fontSize": 12,
-        }
-      }
-    >
-      
-
-    </span>
-  </p>,
+      },
+    },
+    "type": "table",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "children": Array [
+          "
+",
+        ],
+        "props": Object {
+          "style": Object {
+            "fontSize": "12px",
+          },
+        },
+        "type": "span",
+      },
+    ],
+    "props": Object {},
+    "type": "p",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "children": Array [
+          "
+",
+        ],
+        "props": Object {
+          "style": Object {
+            "fontSize": "12px",
+          },
+        },
+        "type": "span",
+      },
+    ],
+    "props": Object {},
+    "type": "p",
+  },
 ]
 `;

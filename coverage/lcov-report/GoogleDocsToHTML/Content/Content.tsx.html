@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">31.81% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>22/22</span>
+                <span class='fraction'>7/22</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">93.61% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>44/47</span>
+                <span class='fraction'>0/47</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>1/1</span>
+                <span class='fraction'>0/1</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">30% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>20/20</span>
+                <span class='fraction'>6/20</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line high'></div>
+    <div class='status-line low'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -133,38 +133,38 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">19x</span>
-<span class="cline-any cline-yes">19x</span>
-<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">28x</span>
-<span class="cline-any cline-yes">6x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">28x</span>
-<span class="cline-any cline-yes">21x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">28x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">28x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">19x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -181,43 +181,43 @@ export interface ContentProps {
     body?: docs_v1.Schema$StructuralElement[];
 }
 &nbsp;
-export const Content: React.FC&lt;ContentProps&gt; = ({
+export const Content: React.FC&lt;ContentProps&gt; = <span class="fstat-no" title="function not covered" >({</span>
     doc,
     body
 }) =&gt; {
     var content: React.ReactNode[];
-    content = [];
-    for (var i = 0; i &lt; body<span class="branch-0 cbranch-no" title="branch not covered" >?.l</span>ength!; i++) {
-        var pObj = body![i].paragraph;
+<span class="cstat-no" title="statement not covered" >    content = [];</span>
+<span class="cstat-no" title="statement not covered" >    for (var i = <span class="cstat-no" title="statement not covered" >0;</span> i &lt; body?.length!; i++) {</span>
+        var pObj = <span class="cstat-no" title="statement not covered" >body![i].paragraph;</span>
 &nbsp;
         //Display Heading
-        if (pObj?.paragraphStyle?.namedStyleType?.indexOf("HEADING") != -1) {
-            content<span class="branch-0 cbranch-no" title="branch not covered" >?.p</span>ush(
+<span class="cstat-no" title="statement not covered" >        <span class="missing-if-branch" title="if path not taken" >I</span>if (pObj?.paragraphStyle?.namedStyleType?.indexOf("HEADING") != -1) {</span>
+<span class="cstat-no" title="statement not covered" >            content?.push(</span>
                 &lt;Heading paraObj={pObj}&gt;&lt;/Heading&gt;
             )
         }
 &nbsp;
         //Display paragraph
-        if (pObj?.paragraphStyle?.namedStyleType?.indexOf("HEADING") == -1 &amp;&amp; body![i].table == undefined &amp;&amp; pObj.bullet == undefined) {
-            content<span class="branch-0 cbranch-no" title="branch not covered" >?.p</span>ush(&lt;Paragraph paraObj={pObj} doc={doc}&gt;&lt;/Paragraph&gt;)
+<span class="cstat-no" title="statement not covered" >        <span class="missing-if-branch" title="if path not taken" >I</span>if (pObj?.paragraphStyle?.namedStyleType?.indexOf("HEADING") == -1 &amp;&amp; body![i].table == undefined &amp;&amp; pObj.bullet == undefined) {</span>
+<span class="cstat-no" title="statement not covered" >            content?.push(&lt;Paragraph paraObj={pObj} doc={doc}&gt;&lt;/Paragraph&gt;)</span>
         }
 &nbsp;
         //Display table
-        if (body![i].table != undefined) {
-            content.push(&lt;Table doc={doc} table={body![i].table}&gt;&lt;/Table&gt;)
+<span class="cstat-no" title="statement not covered" >        <span class="missing-if-branch" title="if path not taken" >I</span>if (body![i].table != undefined) {</span>
+<span class="cstat-no" title="statement not covered" >            content.push(&lt;Table doc={doc} table={body![i].table}&gt;&lt;/Table&gt;)</span>
         }
 &nbsp;
         //Display list
-        if (body![i].paragraph?.bullet != undefined) {
+<span class="cstat-no" title="statement not covered" >        <span class="missing-if-branch" title="if path not taken" >I</span>if (body![i].paragraph?.bullet != undefined) {</span>
            
-            var list = List(doc, i);
-            content.push(list[0]);
-            i = i + list[1] - 1;
+            var list = <span class="cstat-no" title="statement not covered" >List(doc, i);</span>
+<span class="cstat-no" title="statement not covered" >            content.push(list[0]);</span>
+<span class="cstat-no" title="statement not covered" >            i = i + list[1] - 1;</span>
         }
         
     }
 &nbsp;
-    return (
+<span class="cstat-no" title="statement not covered" >    return (</span>
         &lt;&gt;
             {content}
         &lt;/&gt;
@@ -229,7 +229,7 @@ export const Content: React.FC&lt;ContentProps&gt; = ({
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at Thu May 19 2022 16:18:12 GMT-0700 (Pacific Daylight Time)
+                at Fri Jun 05 2026 00:16:45 GMT-0700 (GMT-07:00)
             </div>
         <script src="../../prettify.js"></script>
         <script>

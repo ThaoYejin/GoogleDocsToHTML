@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">37.5% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>16/16</span>
+                <span class='fraction'>6/16</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">83.78% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>31/37</span>
+                <span class='fraction'>0/37</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>2/2</span>
+                <span class='fraction'>0/2</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">33.33% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>15/15</span>
+                <span class='fraction'>5/15</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line high'></div>
+    <div class='status-line low'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -121,26 +121,26 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">24x</span>
-<span class="cline-any cline-yes">24x</span>
-<span class="cline-any cline-yes">24x</span>
-<span class="cline-any cline-yes">28x</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">28x</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">28x</span>
-<span class="cline-any cline-yes">26x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">24x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -157,31 +157,31 @@ export interface PTagProps {
     doc: docs_v1.Schema$Document;
 }
 &nbsp;
-export const Paragraph: React.FC&lt;PTagProps&gt; = ({
+export const Paragraph: React.FC&lt;PTagProps&gt; = <span class="fstat-no" title="function not covered" >({</span>
     paraObj,
     doc
 }) =&gt; {
     var content: React.ReactNode[];
-    content = [];
-    var pObjElement = paraObj<span class="branch-0 cbranch-no" title="branch not covered" >?.e</span>lements;
-    pObjElement<span class="branch-0 cbranch-no" title="branch not covered" >?.f</span>orEach(function (element, index) {
-        if (element.inlineObjectElement != undefined) {
-            content<span class="branch-0 cbranch-no" title="branch not covered" >?.p</span>ush(
+<span class="cstat-no" title="statement not covered" >    content = [];</span>
+    var pObjElement = <span class="cstat-no" title="statement not covered" >paraObj?.elements;</span>
+<span class="cstat-no" title="statement not covered" >    pObjElement?.forEach(<span class="fstat-no" title="function not covered" >function (e</span>lement, index) {</span>
+<span class="cstat-no" title="statement not covered" >        <span class="missing-if-branch" title="if path not taken" >I</span>if (element.inlineObjectElement != undefined) {</span>
+<span class="cstat-no" title="statement not covered" >            content?.push(</span>
                 &lt;Image key={index} doc={doc} element={element} &gt;&lt;/Image&gt;
             )
         }
-        if (element.textRun?.textStyle?.link != undefined) {
-            content.push(
+<span class="cstat-no" title="statement not covered" >        <span class="missing-if-branch" title="if path not taken" >I</span>if (element.textRun?.textStyle?.link != undefined) {</span>
+<span class="cstat-no" title="statement not covered" >            content.push(</span>
                 &lt;Link paragraphElement={element}&gt;&lt;/Link&gt;
             )
         } 
-        if (element.inlineObjectElement == undefined &amp;&amp; element.textRun<span class="branch-0 cbranch-no" title="branch not covered" >?.t</span>extStyle<span class="branch-0 cbranch-no" title="branch not covered" >?.l</span>ink == undefined) {
-            content<span class="branch-0 cbranch-no" title="branch not covered" >?.p</span>ush(
+<span class="cstat-no" title="statement not covered" >        <span class="missing-if-branch" title="if path not taken" >I</span>if (element.inlineObjectElement == undefined &amp;&amp; element.textRun?.textStyle?.link == undefined) {</span>
+<span class="cstat-no" title="statement not covered" >            content?.push(</span>
                 &lt;TextRun key={index} element={element}&gt;&lt;/TextRun&gt;
             )
         }
     })
-    return (
+<span class="cstat-no" title="statement not covered" >    return (</span>
         &lt;p&gt;
             {content}
         &lt;/p&gt;
@@ -193,7 +193,7 @@ export const Paragraph: React.FC&lt;PTagProps&gt; = ({
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at Thu May 19 2022 16:18:12 GMT-0700 (Pacific Daylight Time)
+                at Fri Jun 05 2026 00:16:45 GMT-0700 (GMT-07:00)
             </div>
         <script src="../../prettify.js"></script>
         <script>

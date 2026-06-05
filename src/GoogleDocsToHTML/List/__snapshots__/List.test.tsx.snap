@@ -3,85 +3,129 @@
 exports[`ol runs correctly 1`] = `
 Array [
   "3",
-  <ol>
-    <li>
-      <span
-        style={
+  Object {
+    "children": Array [
+      Object {
+        "children": Array [
           Object {
-            "fontSize": 12,
-          }
-        }
-      >
-        Item 1
-
-      </span>
-    </li>
-    <li>
-      <span
-        style={
+            "children": Array [
+              "Item 1
+",
+            ],
+            "props": Object {
+              "style": Object {
+                "fontSize": "12px",
+              },
+            },
+            "type": "span",
+          },
+        ],
+        "props": Object {},
+        "type": "li",
+      },
+      Object {
+        "children": Array [
           Object {
-            "fontSize": 12,
-          }
-        }
-      >
-        Item 2
-
-      </span>
-    </li>
-    <li>
-      <span
-        style={
+            "children": Array [
+              "Item 2
+",
+            ],
+            "props": Object {
+              "style": Object {
+                "fontSize": "12px",
+              },
+            },
+            "type": "span",
+          },
+        ],
+        "props": Object {},
+        "type": "li",
+      },
+      Object {
+        "children": Array [
           Object {
-            "fontSize": 12,
-          }
-        }
-      >
-        Item 3
-      </span>
-    </li>
-  </ol>,
+            "children": Array [
+              "Item 3",
+            ],
+            "props": Object {
+              "style": Object {
+                "fontSize": "12px",
+              },
+            },
+            "type": "span",
+          },
+        ],
+        "props": Object {},
+        "type": "li",
+      },
+    ],
+    "props": Object {},
+    "type": "ol",
+  },
 ]
 `;
 
 exports[`ul runs correctly 1`] = `
 Array [
   "3",
-  <ul>
-    <li>
-      <span
-        style={
+  Object {
+    "children": Array [
+      Object {
+        "children": Array [
           Object {
-            "fontSize": 12,
-          }
-        }
-      >
-        Item 1
-
-      </span>
-    </li>
-    <li>
-      <span
-        style={
+            "children": Array [
+              "Item 1
+",
+            ],
+            "props": Object {
+              "style": Object {
+                "fontSize": "12px",
+              },
+            },
+            "type": "span",
+          },
+        ],
+        "props": Object {},
+        "type": "li",
+      },
+      Object {
+        "children": Array [
           Object {
-            "fontSize": 12,
-          }
-        }
-      >
-        Item 2
-
-      </span>
-    </li>
-    <li>
-      <span
-        style={
+            "children": Array [
+              "Item 2
+",
+            ],
+            "props": Object {
+              "style": Object {
+                "fontSize": "12px",
+              },
+            },
+            "type": "span",
+          },
+        ],
+        "props": Object {},
+        "type": "li",
+      },
+      Object {
+        "children": Array [
           Object {
-            "fontSize": 12,
-          }
-        }
-      >
-        Item 3
-      </span>
-    </li>
-  </ul>,
+            "children": Array [
+              "Item 3",
+            ],
+            "props": Object {
+              "style": Object {
+                "fontSize": "12px",
+              },
+            },
+            "type": "span",
+          },
+        ],
+        "props": Object {},
+        "type": "li",
+      },
+    ],
+    "props": Object {},
+    "type": "ul",
+  },
 ]
 `;

@@ -2,60 +2,88 @@
 
 exports[`renders correctly 1`] = `
 Array [
-  <h6 />,
-  <p>
-    <span
-      style={
-        Object {
-          "color": "rgb(64.000002,64.000002,64.000002)",
-          "fontSize": 12,
-        }
-      }
-    >
-      List
-
-    </span>
-  </p>,
-  <ol>
-    <li>
-      <span
-        style={
+  Object {
+    "children": null,
+    "props": Object {},
+    "type": "h6",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "children": Array [
+          "List
+",
+        ],
+        "props": Object {
+          "style": Object {
+            "fontSize": "12px",
+          },
+        },
+        "type": "span",
+      },
+    ],
+    "props": Object {},
+    "type": "p",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "children": Array [
           Object {
-            "color": "rgb(64.000002,64.000002,64.000002)",
-            "fontSize": 12,
-          }
-        }
-      >
-        First Item
-
-      </span>
-    </li>
-    <li>
-      <span
-        style={
+            "children": Array [
+              "First Item
+",
+            ],
+            "props": Object {
+              "style": Object {
+                "fontSize": "12px",
+              },
+            },
+            "type": "span",
+          },
+        ],
+        "props": Object {},
+        "type": "li",
+      },
+      Object {
+        "children": Array [
           Object {
-            "color": "rgb(64.000002,64.000002,64.000002)",
-            "fontSize": 12,
-          }
-        }
-      >
-        Second Item
-
-      </span>
-    </li>
-  </ol>,
-  <p>
-    <span
-      style={
-        Object {
-          "color": "rgb(64.000002,64.000002,64.000002)",
-          "fontSize": 12,
-        }
-      }
-    >
-      
-
-    </span>
-  </p>,
+            "children": Array [
+              "Second Item
+",
+            ],
+            "props": Object {
+              "style": Object {
+                "fontSize": "12px",
+              },
+            },
+            "type": "span",
+          },
+        ],
+        "props": Object {},
+        "type": "li",
+      },
+    ],
+    "props": Object {},
+    "type": "ol",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "children": Array [
+          "
+",
+        ],
+        "props": Object {
+          "style": Object {
+            "fontSize": "12px",
+          },
+        },
+        "type": "span",
+      },
+    ],
+    "props": Object {},
+    "type": "p",
+  },
 ]
 `;

@@ -2,24 +2,35 @@
 
 exports[`renders correctly 1`] = `
 Array [
-  <h6 />,
-  <h2>
-    <span
-      style={Object {}}
-    >
-      Heading 2
-    </span>
-    <span
-      style={
-        Object {
-          "color": "rgb(64.000002,64.000002,64.000002)",
-          "fontSize": 12,
-        }
-      }
-    >
-      
-
-    </span>
-  </h2>,
+  Object {
+    "children": null,
+    "props": Object {},
+    "type": "h6",
+  },
+  Object {
+    "children": Array [
+      Object {
+        "children": Array [
+          "Heading 2",
+        ],
+        "props": Object {},
+        "type": "span",
+      },
+      Object {
+        "children": Array [
+          "
+",
+        ],
+        "props": Object {
+          "style": Object {
+            "fontSize": "12px",
+          },
+        },
+        "type": "span",
+      },
+    ],
+    "props": Object {},
+    "type": "h2",
+  },
 ]
 `;

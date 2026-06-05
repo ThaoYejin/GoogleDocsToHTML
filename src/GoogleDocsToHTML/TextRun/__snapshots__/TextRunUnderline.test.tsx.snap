@@ -1,13 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<span
-  style={
-    Object {
+Object {
+  "children": Array [
+    "Text ",
+  ],
+  "props": Object {
+    "style": Object {
       "textDecoration": "underline",
-    }
-  }
->
-  Text 
-</span>
+    },
+  },
+  "type": "span",
+}
 `;

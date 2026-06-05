@@ -1,10 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<span
-  style={Object {}}
->
-  Text Run
-
-</span>
+Object {
+  "children": Array [
+    "Text Run
+",
+  ],
+  "props": Object {},
+  "type": "span",
+}
 `;
